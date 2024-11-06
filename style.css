@@ -8,6 +8,11 @@
     font-family: "Inter", "sans serif";
 }
 
+.padding {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 h3 {
     width: 100%;
     font-size: 32px;
@@ -19,7 +24,6 @@ h3 {
 
 .color_brown {
     color: #593E26;
-
 }
 
 
@@ -44,6 +48,10 @@ h3 {
     font-weight: 600;
 }
 
+.bolder {
+    font-weight: 800;
+}
+
 .bg_yellow {
     background-color: #F3C827;
 }
@@ -64,6 +72,17 @@ h3 {
     margin-top: 35px;
 }
 
+.bouton_produit {
+        background-color: #F66909;
+        border-radius: 4px;
+        padding: 5px;
+        color: white;
+        display: inline-block;
+        font-size: 18px;
+        margin-left: 40px;
+        margin-top: 20px;
+}
+
 .width50 {
     width: 50%;
 }
@@ -71,6 +90,7 @@ h3 {
 .width25 {
     width: 25%;
 }
+
 
 /*En dessous : header*/
 
@@ -113,36 +133,54 @@ h1 {
 /*Section engagements*/
 
 .engagement {
-    width: 1,280px;
     height: 361px;
-    padding: 40px 200px 40px 200px;
-
 }
 
 .engagement p {
     color: #1E150C;
     font-size: 16px;
     font-weight: 500;
-    width: 49%;
+    width: 48%;
     text-align: left;
     line-height: 19.36px;
+    
 }
 
 /*Section bienfaits*/
 
 .bienfaits {
-    width: 1,280px;
     height: 372px;
-    padding: 40px 200px 40px 200px;
+    color: #1E150C;
+}
+
+.bienfaits h4 {
+    color: #1E150C;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    text-align: left;
+}
+
+.bienfaits p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+
+}
+
+.bienfaits h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 63px;
+    text-align: left;
 }
 
 
 /*section produits*/
 
 .produits {
-    width: 1,279px;
     height: 621px;
-    padding: 40px 200px 40px 200px;
 }
 
 .card {
@@ -150,22 +188,62 @@ h1 {
     height: 458px;
 }
 
-.card .bouton {
-    margin-left: 40px;
+.card p, .card h4 {
+    margin: 10px;
 }
+
 
 /*Section clients*/
 
 .nos_clients {
-    width: 1,285px;
     height: 442px;
-    padding: 40px 200px 40px 200px;
+}
+
+.carte_client {
+    margin-top: 50px;
+}
+
+.note {
+    display: block;
+    margin: 20px;
+}
+
+.nos_clients p {
+    font-size: 15px;
+    font-style: italic;
+    line-height: 18.15px;
+    text-align: left;
+    line-height: 18.15px;
+    margin-top: 10px;
+}
+
+/*section nous trouver*/
+
+.carte {
+    width: 100%;
 }
 
 /*footer*/
 
 footer {
-    width: 1,282px;
     height: 334px;
-    padding: 40px 200px 40px 200px;
+}
+
+footer .joindre a {
+    display: block;
+    padding-bottom: 20px;
+}
+
+footer h3 {
+    color: #593E26;
+    font-size: 32px;
+    line-height: 63px;
+}
+
+.reseaux a {
+    margin-right: 10px;
+}
+
+.infos li {
+    padding-bottom: 10px;
 }

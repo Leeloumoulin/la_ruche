@@ -15,16 +15,16 @@
         <nav class="width50 ">
             <ul class="flex space_between bold">
                 <li>
-                    <a href="">Nos produits</a>
+                    <a href="#produits">Nos produits</a>
                 </li>
                 <li>
-                    <a href="">Notre savoir faire</a>
+                    <a href="#engagements">Nos engagements</a>
                 </li>
                 <li>
-                    <a href="">Notre histoire</a>
+                    <a href="#clients">Avis clients</a>
                 </li>
                 <li>
-                    <a href="">Nous contacter</a>
+                    <a href="#contact">Nous contacter</a>
                 </li>
             </ul>
         </nav>
@@ -44,7 +44,7 @@
     </section>
 
     <!-- Section des engagements -->
-    <section class="engagement">
+    <section id="engagements" class="engagement padding align_item_center">
         <div class="container flex space_between">
             <h3 class="color_brown bold">Engagements</h3>
             <div class="flex space_between align_item_center">
@@ -72,7 +72,7 @@
 
     <!-- Section bienfaits -->
 
-    <section class="bienfaits bg_yellow">
+    <section class="bienfaits bg_yellow padding">
         <div class="container flex space_between">
             <h3 class="color_brown">Bienfaits du miel</h3>
             <div class="flex space_between align_item_center">
@@ -103,7 +103,9 @@
             </div>
         </div>
     </section>
-    <section class="produits">
+
+    <!-- section produits -->
+    <section id="produits" class="produits padding">
         <div class="container">
             <h3 class="color_brown">Produits</h3>
             <div class="flex space_between align_item_center">
@@ -111,7 +113,7 @@
                 <img src="assets/produit1.png" alt="">
                 <h4>Miel de chatainger</h4>
                 <p>Le Miel de châtaignier tonifiant, connaît un regain de popularité avec son goût …</p>
-                <a href="" class="bouton">
+                <a href="" class="bouton_produit">
                     <img src="./assets/panier-blanc.png" alt="">
                     Ajouter au panier
                 </a>
@@ -120,7 +122,7 @@
                 <img src="assets/produit2.png" alt="Pain au miel">
                 <h4>Pain au miel</h4>
                 <p>Le pain au miel est une recette au goût inégalé, fort d’un ancien savoir faire…</p>
-                <a href="" class="bouton">
+                <a href="" class="bouton_produit">
                     <img src="./assets/panier-blanc.png" alt="">
                     Ajouter au panier
                 </a>
@@ -129,7 +131,7 @@
                 <img src="assets/produit3.png" alt="figues confites">
                 <h4>Figues confites</h4>
                 <p>La figue se marie à merveille à la douceur du miel pour faire revenir vos plates…</p>
-                <a href="" class="bouton">
+                <a href="" class="bouton_produit">
                     <img src="./assets/panier-blanc.png" alt="">
                     Ajouter au panier
                 </a>
@@ -137,75 +139,91 @@
         </div>
         </div>
     </section>
-    <section class="nos_clients bg_yellow">
-        <div class="container flex space_between">
+
+    <!-- section clients -->
+    <section id="clients" class="nos_clients bg_yellow padding">
+        <div class="container">
             <h3 class="color_brown">Nos clients</h3>
-        <div class="flex space_between align_item_center">
+        <div class="flex space_between align_item_center carte_client">
         <div class="width25">
+            <div class="flex align_item_center">
             <img src="./assets/isabelle.png" alt="">
-            <p>Isabelle B</p>
+            <div class="note">
+            <p class="bolder">Isabelle B</p>
             <div> ★★★★☆</div>
+            </div>
+            </div>
             <p>La Ruche offre un miel de très bonne qualité, avec un goût authentique qui rappelle vraiment le
                 savoir-faire artisanal. Les emballages sont soignés, et j'apprécie le côté local de cette entreprise</p>
         </div>
         <div class="width25">
+            <div class="flex align_item_center">
             <img src="./assets/jean-luc.png" alt="">
-            <p>Jean Luc D.</p>
+            <div class="note">
+            <p class="bolder">Jean Luc D.</p>
             <div> ★★★★☆</div>
+            </div>
+        </div>
             <p>La Ruche offre un miel de très bonne qualité, avec un goût authentique qui rappelle vraiment le
                 savoir-faire artisanal. Les emballages sont soignés, et j'apprécie le côté local de cette entreprise.
             </p>
         </div>
         <div class="width25">
+            <div class="flex align_item_center">
             <img src="./assets/marie.png" alt="">
-            <p>Marie G.</p>
+            <div class="note">
+            <p class="bolder">Marie G.</p>
             <div> ★★★★★</div>
+        </div>
+            </div>
             <p>La Ruche offre un miel de très bonne qualité, avec un goût authentique qui rappelle vraiment le
                 savoir-faire artisanal. Les emballages sont soignés, et j'apprécie le côté local de cette entreprise</p>
         </div>
         </div>
     </div>
     </section>
-    <section class="container width50">
+
+    <!-- section adresse -->
+    <section id="contact" class="container  padding">
         <h3 class="color_brown">Nous trouver</h3>
         <!-- carte -->
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2801.1974981478093!2d4.356613975449251!3d45.40535683736415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f5aee28ef51b4b%3A0xc80903a95d39c929!2s12%20Rue%20Jean-Pierre%20Blachier%2C%2042150%20La%20Ricamarie!5e0!3m2!1sfr!2sfr!4v1730710434453!5m2!1sfr!2sfr"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="carte"></iframe>
         <address>
-            <p>La ruche</p>
+            <p class="bold">La ruche</p>
             <p>15 rue Jean-Pierre Blachier</p>
             <p>42520 Maclas</p>
         </address>
     </section>
     <footer class="bg_yellow">
         <div class="container flex space_between">
-        <div>
+        <div class="joindre">
             <h3>Contactez nous</h3>
-            <a href="tel:+"></a>
-            <a href="mailto:"></a>
-            <p>Du lundi au vendredi
+            <a href="tel:+"><i class="fa-solid fa-square-phone"></i> 04.68.20.53.34</a>
+            <a href="mailto:"><i class="fa-solid fa-envelope"></i> laruche@orange.fr</a>
+            <p class="bold">Du lundi au vendredi
                 <br>
                 8h → 12h | 14h → 18h
             </p>
-            <p>Samedi
+            <p class="bold">Samedi
                 <br>
                 8h → 12h
             </p>
         </div>
-        <div>
+        <div  class="reseaux">
             <h3>Réseaux</h3>
-            <a href="">
-                <img src="./assets/fb.png" alt="">
+            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.facebook.com/%3Flocale%3Dfr_FR&ved=2ahUKEwiJ7rip_ceJAxW_TKQEHVbXEbAQFnoECBUQAQ&usg=AOvVaw3gYU88OjFWqxFi4GdoLup3" target="blank">
+                <img src="./assets/fb.png" alt="facebook">
             </a>
-            <a href="">
-                <img src="./assets/insta.png" alt="">
+            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/&ved=2ahUKEwibyfm9_ceJAxVjVKQEHcGCE3sQFnoECAwQAQ&usg=AOvVaw1cBeRoOpMhZ3-x5M1sA3Fm" target="blank">
+                <img src="./assets/insta.png" alt="instagram">
             </a>
         </div>
         <div>
             <h3>Information</h3>
-            <ul>
+            <ul class="infos">
                 <li>
                     <a href="">→ Plan du site</a>
                 </li>
