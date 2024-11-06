@@ -6,18 +6,36 @@
     margin: 0;
     padding: 0;
     font-family: "Inter", "sans serif";
-    
 }
 
+h3 {
+    width: 100%;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 63px;
+    text-align: left;
+
+}
+
+.color_brown {
+    color: #593E26;
+
+}
+
+
+/*met les éléments les uns à côté des autres*/
 .flex {
     display: flex;
     flex-wrap: wrap;
 }
 
+
+/*mettre des espaces entre les éléments*/
 .space_between {
     justify-content: space-between;
 }
 
+/*centre les éléments verticalement*/
 .align_item_center {
     align-items: center;
 }
@@ -30,8 +48,8 @@
     background-color: #F3C827;
 }
 
+/*Contenir dans une largeur max de 1000px et centre au milieu du parent*/
 .container {
-    background-color: rgba(243, 109, 0, 0.792); 
     max-width: 1000px;
     margin: auto;
     width: 100%;
@@ -46,7 +64,13 @@
     margin-top: 35px;
 }
 
+.width50 {
+    width: 50%;
+}
 
+.width25 {
+    width: 25%;
+}
 
 /*En dessous : header*/
 
@@ -62,11 +86,6 @@ a {
 
 li {
     list-style: none;
-}
-
-.nav_header {
-    width: 50%;
-    /* background-color: aqua; */
 }
 
 header {
@@ -90,6 +109,63 @@ h1 {
     font-size: 32px;
 }
 
+
+/*Section engagements*/
+
+.engagement {
+    width: 1,280px;
+    height: 361px;
+    padding: 40px 200px 40px 200px;
+
+}
+
 .engagement p {
-    width: 50%;
+    color: #1E150C;
+    font-size: 16px;
+    font-weight: 500;
+    width: 49%;
+    text-align: left;
+    line-height: 19.36px;
+}
+
+/*Section bienfaits*/
+
+.bienfaits {
+    width: 1,280px;
+    height: 372px;
+    padding: 40px 200px 40px 200px;
+}
+
+
+/*section produits*/
+
+.produits {
+    width: 1,279px;
+    height: 621px;
+    padding: 40px 200px 40px 200px;
+}
+
+.card {
+    width: 267px;
+    height: 458px;
+}
+
+.card .bouton {
+    margin-left: 40px;
+}
+
+/*Section clients*/
+
+.nos_clients {
+    width: 1,285px;
+    height: 442px;
+    padding: 40px 200px 40px 200px;
+}
+
+/*footer*/
+
+footer {
+    width: 1,282px;
+    height: 334px;
+    padding: 40px 200px 40px 200px;
 }
